@@ -1,0 +1,26 @@
+.footer {
+    background-color: getColor('dark-bg-color');
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    &__second-wrapper {
+      display: flex;
+      flex-direction: column;
+      margin-left: 70px;
+    }
+    
+    &__item-title {
+      font-weight: 700;
+      line-height: 1.14;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: getColor('secondary-text-color');
+      padding-top: 12px;
+    }
+  }
+  

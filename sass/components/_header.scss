@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px;
+    border-bottom: 1px solid #ececec;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: getColor('bg-color');
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+    
+    &__nav {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  
+  
+  
+  
